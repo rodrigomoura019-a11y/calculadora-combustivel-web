@@ -1,0 +1,68 @@
+body {
+  /* Usado para estilizar a página inteira: remove as margens padrão dos navegadores, 
+    define o fundo global escuro, a cor padrão dos textos e a fonte principal. */
+  margin: 0;
+  padding: 0;
+  background-color: #262a34;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box; /* Isso faz com que o padding esteja no limite estabelecido da caixa e não some*/
+}
+
+.logo {
+  width: 400px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff; /* Manter a independência em relação ao sistema e a consistência nos dispositivos*/
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+label {
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  max-width: 350px;
+  height: 45px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 0 12px; /* Cima/baixo, laterais */
+  font-size: 16px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  max-width: 350px;
+  height: 45px;
+  margin-top: 25px;
+  background-color: #ffcc00;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
